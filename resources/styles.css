@@ -7,6 +7,7 @@ body{
     text-align: center;
     opacity: 0.9;
 }
+/*Header Start*/
 .flex-container{
     display: flex;
     justify-content: space-between;
@@ -21,11 +22,31 @@ header{
     z-index: 1;
     height: 69px;
     background-color: blueviolet;
-    
 }
 img{
     height: 50px;
 }
 a{
     color: seashell;
+    padding-right: 20px;
 }
+/*Header Finish*/
+/*Mission Start*/
+#mission{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+}
+.flex-container div{
+    background-color: black;
+    align-self: center;
+    width: 1200px;
+}
+/*Mission End*/
+
+
