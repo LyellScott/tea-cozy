@@ -10,7 +10,7 @@ body{
 /*Header Start*/
 .flex-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 header{
@@ -48,5 +48,73 @@ a{
     width: 1200px;
 }
 /*Mission End*/
+/*Tea of Month start*/
+#tea-of-month{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.monthimg img{
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+.monthly-container{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.monthimg h4{
+    margin: 0px;
+    padding: 0px;
+}
+/*Tea of Month end*/
+/*Start of Locations*/ 
+.locations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.locimage{
+    display: flex-box;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    width: 1200px;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.locs{
+    justify-content: center;
+    width: 300px;
+}
+#im-one{
+    margin-right: 40px;
+    background-color: black;
+}
+#im-two{
+    margin-right: 40px;
+    background-color: black;
+}
+#im-three{
+    background-color: black;
+}
+#contact{
+    height: 300px;
+}
+#copywrite{
+    text-align: left;
+}
 
 
