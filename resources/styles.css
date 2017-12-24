@@ -91,6 +91,9 @@ a{
     justify-content: center;
     align-items: center;
 }
+.locimage h2{
+    margin-bottom: 15px;
+}
 .blocks{
     display: flex;
     flex-direction: row;
@@ -103,13 +106,16 @@ a{
 #im-one{
     margin-right: 40px;
     background-color: black;
+    opacity: 1;
 }
 #im-two{
     margin-right: 40px;
     background-color: black;
+    opacity: 1;
 }
 #im-three{
     background-color: black;
+    opacity: 1;
 }
 #contact{
     height: 300px;
